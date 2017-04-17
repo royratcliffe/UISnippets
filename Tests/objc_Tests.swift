@@ -23,7 +23,7 @@
 //------------------------------------------------------------------------------
 
 import XCTest
-import Snippets
+import UISnippets
 
 // swiftlint:disable:next type_name
 class objc_Tests: XCTestCase {

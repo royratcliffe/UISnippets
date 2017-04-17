@@ -23,7 +23,7 @@
 //------------------------------------------------------------------------------
 
 import XCTest
-import Snippets
+import UISnippets
 
 class IndexSetTests: XCTestCase {
 

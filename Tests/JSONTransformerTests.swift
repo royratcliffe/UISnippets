@@ -31,7 +31,7 @@ class JSONTransformerTests: XCTestCase {
   /// output. White space makes it pretty.
   func testArray() {
     // given
-    let transformer = ValueTransformer(forName: NSValueTransformerName("Snippets.JSONTransformer"))!
+    let transformer = ValueTransformer(forName: NSValueTransformerName("UISnippets.JSONTransformer"))!
     // when
     // swiftlint:disable:next force_cast
     let data = transformer.transformedValue([1, 2, 3]) as! Data

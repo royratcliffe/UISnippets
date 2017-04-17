@@ -23,7 +23,7 @@
 //------------------------------------------------------------------------------
 
 import XCTest
-@testable import Snippets
+@testable import UISnippets
 
 class DispatchTests: XCTestCase {
 

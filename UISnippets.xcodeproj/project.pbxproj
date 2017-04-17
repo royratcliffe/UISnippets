@@ -48,7 +48,7 @@
 		78B145A61C8D6EF3002F733B /* NSObject+WeakRef.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B145A51C8D6EF3002F733B /* NSObject+WeakRef.swift */; };
 		78B47F6D1C8088040036DBD8 /* objc_AssociationPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78B47F6C1C8088040036DBD8 /* objc_AssociationPolicy.swift */; };
 		78BA52DA1B8F846D00D85C33 /* Snippets.h in Headers */ = {isa = PBXBuildFile; fileRef = 78BA52D91B8F846D00D85C33 /* Snippets.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		78BA52E11B8F846D00D85C33 /* Snippets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78BA52D61B8F846D00D85C33 /* Snippets.framework */; };
+		78BA52E11B8F846D00D85C33 /* UISnippets.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78BA52D61B8F846D00D85C33 /* UISnippets.framework */; };
 		78BA52E61B8F846D00D85C33 /* SnippetsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BA52E51B8F846D00D85C33 /* SnippetsTests.swift */; };
 		78BA52F71B8F848F00D85C33 /* String+Snippets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BA52F21B8F848F00D85C33 /* String+Snippets.swift */; };
 		78BA52F81B8F848F00D85C33 /* UIDevice+Snippets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78BA52F31B8F848F00D85C33 /* UIDevice+Snippets.swift */; };
@@ -127,10 +127,10 @@
 		78B145A31C8D6E8A002F733B /* NSObject+AssociatedObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+AssociatedObject.swift"; sourceTree = "<group>"; };
 		78B145A51C8D6EF3002F733B /* NSObject+WeakRef.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSObject+WeakRef.swift"; sourceTree = "<group>"; };
 		78B47F6C1C8088040036DBD8 /* objc_AssociationPolicy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = objc_AssociationPolicy.swift; sourceTree = "<group>"; };
-		78BA52D61B8F846D00D85C33 /* Snippets.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Snippets.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78BA52D61B8F846D00D85C33 /* UISnippets.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = UISnippets.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		78BA52D91B8F846D00D85C33 /* Snippets.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Snippets.h; sourceTree = "<group>"; };
 		78BA52DB1B8F846D00D85C33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		78BA52E01B8F846D00D85C33 /* SnippetsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnippetsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		78BA52E01B8F846D00D85C33 /* UISnippetsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UISnippetsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		78BA52E51B8F846D00D85C33 /* SnippetsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnippetsTests.swift; sourceTree = "<group>"; };
 		78BA52E71B8F846D00D85C33 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		78BA52F21B8F848F00D85C33 /* String+Snippets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Snippets.swift"; sourceTree = "<group>"; };
@@ -171,7 +171,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				78BA52E11B8F846D00D85C33 /* Snippets.framework in Frameworks */,
+				78BA52E11B8F846D00D85C33 /* UISnippets.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -190,8 +190,8 @@
 		78BA52D71B8F846D00D85C33 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				78BA52D61B8F846D00D85C33 /* Snippets.framework */,
-				78BA52E01B8F846D00D85C33 /* SnippetsTests.xctest */,
+				78BA52D61B8F846D00D85C33 /* UISnippets.framework */,
+				78BA52E01B8F846D00D85C33 /* UISnippetsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -292,9 +292,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		78BA52D51B8F846D00D85C33 /* Snippets */ = {
+		78BA52D51B8F846D00D85C33 /* UISnippets */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 78BA52EA1B8F846D00D85C33 /* Build configuration list for PBXNativeTarget "Snippets" */;
+			buildConfigurationList = 78BA52EA1B8F846D00D85C33 /* Build configuration list for PBXNativeTarget "UISnippets" */;
 			buildPhases = (
 				78BA52D11B8F846D00D85C33 /* Sources */,
 				78BA52D21B8F846D00D85C33 /* Frameworks */,
@@ -306,14 +306,14 @@
 			);
 			dependencies = (
 			);
-			name = Snippets;
+			name = UISnippets;
 			productName = Snippets;
-			productReference = 78BA52D61B8F846D00D85C33 /* Snippets.framework */;
+			productReference = 78BA52D61B8F846D00D85C33 /* UISnippets.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		78BA52DF1B8F846D00D85C33 /* SnippetsTests */ = {
+		78BA52DF1B8F846D00D85C33 /* UISnippetsTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 78BA52ED1B8F846D00D85C33 /* Build configuration list for PBXNativeTarget "SnippetsTests" */;
+			buildConfigurationList = 78BA52ED1B8F846D00D85C33 /* Build configuration list for PBXNativeTarget "UISnippetsTests" */;
 			buildPhases = (
 				78BA52DC1B8F846D00D85C33 /* Sources */,
 				78BA52DD1B8F846D00D85C33 /* Frameworks */,
@@ -324,9 +324,9 @@
 			dependencies = (
 				78BA52E31B8F846D00D85C33 /* PBXTargetDependency */,
 			);
-			name = SnippetsTests;
+			name = UISnippetsTests;
 			productName = SnippetsTests;
-			productReference = 78BA52E01B8F846D00D85C33 /* SnippetsTests.xctest */;
+			productReference = 78BA52E01B8F846D00D85C33 /* UISnippetsTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -349,7 +349,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 78BA52D01B8F846D00D85C33 /* Build configuration list for PBXProject "Snippets" */;
+			buildConfigurationList = 78BA52D01B8F846D00D85C33 /* Build configuration list for PBXProject "UISnippets" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -361,8 +361,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				78BA52D51B8F846D00D85C33 /* Snippets */,
-				78BA52DF1B8F846D00D85C33 /* SnippetsTests */,
+				78BA52D51B8F846D00D85C33 /* UISnippets */,
+				78BA52DF1B8F846D00D85C33 /* UISnippetsTests */,
 			);
 		};
 /* End PBXProject section */
@@ -485,7 +485,7 @@
 /* Begin PBXTargetDependency section */
 		78BA52E31B8F846D00D85C33 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 78BA52D51B8F846D00D85C33 /* Snippets */;
+			target = 78BA52D51B8F846D00D85C33 /* UISnippets */;
 			targetProxy = 78BA52E21B8F846D00D85C33 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -596,7 +596,7 @@
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = uk.co.pioneeringsoftware.Snippets;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.pioneeringsoftware.UISnippets;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -616,7 +616,7 @@
 				INFOPLIST_FILE = Sources/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = uk.co.pioneeringsoftware.Snippets;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.pioneeringsoftware.UISnippets;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -629,7 +629,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = uk.co.pioneeringsoftware.SnippetsTests;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.pioneeringsoftware.UISnippetsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -640,7 +640,7 @@
 			buildSettings = {
 				INFOPLIST_FILE = Tests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = uk.co.pioneeringsoftware.SnippetsTests;
+				PRODUCT_BUNDLE_IDENTIFIER = uk.co.pioneeringsoftware.UISnippetsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 3.0;
@@ -650,7 +650,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		78BA52D01B8F846D00D85C33 /* Build configuration list for PBXProject "Snippets" */ = {
+		78BA52D01B8F846D00D85C33 /* Build configuration list for PBXProject "UISnippets" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				78BA52E81B8F846D00D85C33 /* Debug */,
@@ -659,7 +659,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		78BA52EA1B8F846D00D85C33 /* Build configuration list for PBXNativeTarget "Snippets" */ = {
+		78BA52EA1B8F846D00D85C33 /* Build configuration list for PBXNativeTarget "UISnippets" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				78BA52EB1B8F846D00D85C33 /* Debug */,
@@ -668,7 +668,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		78BA52ED1B8F846D00D85C33 /* Build configuration list for PBXNativeTarget "SnippetsTests" */ = {
+		78BA52ED1B8F846D00D85C33 /* Build configuration list for PBXNativeTarget "UISnippetsTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				78BA52EE1B8F846D00D85C33 /* Debug */,
